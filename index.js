@@ -12,8 +12,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 program
-    .version('1.0.1')
-    .argument('<project-name>', 'create-cidc-react-native-app')
+    .version('1.0.0')
+    .argument('<project-name>', 'yuva-cidc-react-native-app')
     .action(async (projectName) => {
         console.log('Starting scaffold...');
         await scaffoldProject(projectName);

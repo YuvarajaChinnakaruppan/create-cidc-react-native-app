@@ -1,6 +1,8 @@
 {
-  "name": "create-cidc-react-native-app",
-  "version": "1.0.3",
+  "name": "yuva-cidc-react-native-app",
+  "version": "1.0.0",
+  "description": "A CLI tool for creating React Native apps with predefined templates.",
+  "type": "module",
   "main": "index.js",
   "bin": {
     "create-cidc-react-native-app": "index.js"
@@ -8,15 +10,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuvarajaChinnakaruppan/create-cidc-react-native-app.git"
+  },
+  "keywords": [
+    "react-native",
+    "cli",
+    "scaffold",
+    "react"
+  ],
+  "author": "Yuvaraja Chinnakaruppan",
   "license": "ISC",
-  "type": "module",
+  "bugs": {
+    "url": "https://github.com/YuvarajaChinnakaruppan/create-cidc-react-native-app/issues"
+  },
+  "homepage": "https://github.com/YuvarajaChinnakaruppan/create-cidc-react-native-app#readme",
   "dependencies": {
     "@inquirer/prompts": "^5.4.0",
     "commander": "^12.1.0",
     "fs-extra": "^11.2.0"
-  },
-  "devDependencies": {},
-  "description": ""
+  }
 }
